@@ -57,7 +57,7 @@ namespace Lab_5
                 result += Math.Pow(-1, i - 1) * Math.Pow(X, i) / i;
             }
 
-            TextBlockAnswer.Text = $"ln(1 +  {N}{X}) ≈ {result}";
+            TextBlockAnswer.Text = $"ln(1 + {X}) ≈ {result}";
         }
 
         private void BtnCancelClick(object sender, RoutedEventArgs e)
